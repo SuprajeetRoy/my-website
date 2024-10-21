@@ -1,0 +1,57 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  background-image: url('https://www.example.com/galaxy-background.jpg'); /* Replace with a galaxy image URL */
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+  color: #f0f0f0;
+}
+
+p, ul {
+  margin: 20px;
+  font-size: 18px;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  margin: 40px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+}
