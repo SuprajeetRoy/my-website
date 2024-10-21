@@ -4,8 +4,10 @@ body {
   padding: 0;
   background: #000;
   color: #fff;
-  background-image: url('https://www.example.com/galaxy-background.jpg'); /* Replace with a galaxy image URL */
-  background-size: cover;
+  background-image: url('galaxy.jpg'); /* Reference to your local image */
+  background-size: cover; /* Make sure the image covers the whole background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; 
 }
 
 header {
